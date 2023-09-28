@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(190, 190, 236);
+}
+
+.container,
+#validacao{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+#number-one,
+#number-two,
+#btn-validar{
+    margin-bottom: 8px;
+    height: 32px;
+}
+
+h1{
+    margin-top: 32px;
+}
+
+#btn-validar{
+    background-color: rgb(58, 133, 58);
+}
+
+.error-menssage{
+    display: none;
+    background-color: red;
+    color: black;
+    padding: 16px;
+}
+
+.success-menssage{
+    display: none;
+    background-color: green;
+    color: black;
+    padding: 16px;
+}

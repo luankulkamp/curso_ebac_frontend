@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício modulo 7</title>
+
+    <link href="./main.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de validação</h1>
+
+        <form id="validacao">
+            <input type="number" id="number-one" required placeholder="Digite o número A." />
+            <input type="number" id="number-two" required placeholder="Digite o número B" />
+            <button type="submit" id="btn-validar" >Validar</button>
+        </form>
+        
+        <p class="error-menssage">Formulário inválido, A maior que o B.</p>
+        <p class="success-menssage">Formulário válido, A menor que o B.</p>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
